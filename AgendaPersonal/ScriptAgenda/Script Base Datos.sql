@@ -1,5 +1,7 @@
 Create Database AgendaDb
 go
+use AgendaDb
+go
 Create Table Personas(
 PersonaId int identity primary key,
 Nombres varchar(100),
