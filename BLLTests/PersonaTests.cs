@@ -74,7 +74,7 @@ namespace BLL.Tests
         {
             Persona persona = new Persona();
 
-           Assert.IsTrue(persona.Listado(" * ", " 1=1 ", " ").Rows.Count == 1);
+           Assert.IsTrue(persona.Listado(" * ", " 1=1 ", " ").Rows.Count > 0);
 
         }
     }
