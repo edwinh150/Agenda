@@ -18,7 +18,7 @@ namespace DAL
 
         public ConexionDb()
         {
-            con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConStr"].ConnectionString);
+            con = new SqlConnection("Data Source=DARLENISM\\SQLEXPRESS;Initial Catalog=AgendaDb2;Integrated Security=True");
             Cmd = new SqlCommand();
         }
 
